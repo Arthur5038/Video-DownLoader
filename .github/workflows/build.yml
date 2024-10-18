@@ -28,7 +28,7 @@ jobs:
           pyinstaller --onefile --windowed --icon=icons/pirate_icon.ico Filmdw0.1.py
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: Filmdw0.1
           path: dist/
